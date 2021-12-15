@@ -1,0 +1,178 @@
+.niveles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(136, 11, 252);
+  list-style: none;
+  margin-top: -7px;
+}
+.sub {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+.semilla {
+  text-decoration: none;
+  color: rgb(250, 183, 0);
+  font-size: 30px;
+}
+.LeccionGrid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 400px);
+  gap: 130px;
+  padding: 20px;
+  justify-content: center;
+}
+.ImgStyle {
+  border-radius: 70px;
+  /* background-color: rgb(255, 136, 0); */
+  width: 400px;
+  animation-name: imganim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.title {
+  color: rgb(250, 183, 0);
+  text-align: center;
+  font-size: 60px;
+}
+.temas {
+  color: black;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.videoAnterior {
+  padding: 20px 100px;
+  border: 2px solid rgb(255, 255, 255);
+  top: 100%;
+  left: 5%;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgb(221, 127, 38);
+  font-size: 20px;
+
+  font-family: "Butterfly Kids", cursive;
+  color: white;
+}
+
+.videoSiguiente {
+  padding: 20px 100px;
+  border: 2px solid rgb(255, 255, 255);
+  top: 100%;
+  left: 78%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgb(221, 127, 38);
+  font-size: 20px;
+
+  font-family: "Butterfly Kids", cursive;
+  color: white;
+}
+.botonAtras {
+  padding: 15px 50px;
+  top: 9%;
+  left: 5%;
+  position: absolute;
+  justify-content: center;
+  border-radius: 5px;
+
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(221, 127, 38);
+  font-size: 15px;
+  color: white;
+  font-family: "Butterfly Kids", cursive;
+}
+.video {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 20px;
+  position: relative;
+}
+.video iframe,
+.video object,
+.video embed {
+  height: 60%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 97%;
+}
+.punto {
+  list-style: none;
+}
+.videoslider {
+  width: 100%;
+  height: 20em;
+  background: #444;
+  position: relative;
+  overflow: hidden;
+}
+.slide {
+  position: absolute;
+  top: 0;
+  left: 100%;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+@media (max-width: 1090px) {
+  .botonAtras {
+    top: 12%;
+    left: 5%;
+  }
+}
+@media (max-width: 800px) {
+  .title {
+    text-align: center;
+    font-size: 30px;
+    /* top: 30%; */
+    margin-top: 16%;
+  }
+  .botonAtras {
+    padding: 10px 30px;
+    top: 11%;
+    left: 5%;
+    position: absolute;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  .videoSiguiente {
+    padding: 10px 50px;
+    left: 600px;
+    top: -40px;
+    position: relative;
+  }
+  .videoAnterior {
+    padding: 10px 50px;
+    top: 75%;
+    position: relative;
+  }
+  .video iframe,
+  .video object,
+  .video embed {
+    height: 60%;
+    left: 0;
+    position: absolute;
+    top: 10%;
+    width: 95%;
+  }
+  :root {
+    width: 900px;
+  }
+}
+@media (max-width: 570px) {
+  .botonAtras {
+    top: 18%;
+    font-size: 20px;
+  }
+}

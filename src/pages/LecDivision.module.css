@@ -1,0 +1,121 @@
+.niveles {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(136, 11, 252);
+  list-style: none;
+  margin-top: -7px;
+  font-family: "Butterfly Kids", cursive;
+  text-align: center;
+  /* max-width: 97.8%; */
+}
+.sub {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+.semilla {
+  text-decoration: none;
+  color: rgb(250, 183, 0);
+  font-size: 30px;
+}
+.LeccionGrid {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 500px);
+  gap: 100px;
+  /* padding: 20px; */
+  justify-content: center;
+  margin-top: 10%;
+}
+.ImgStyle {
+  border-radius: 70px;
+  /* background-color: rgb(255, 136, 0); */
+  width: 400px;
+}
+.title {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 60px;
+}
+.temas {
+  color: black;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.videoAnterior {
+  padding: 10px 50px;
+  border: 2px solid black;
+  top: 92%;
+  left: 10%;
+  position: absolute;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgb(221, 127, 38);
+}
+
+.videoSiguiente {
+  padding: 20px 100px;
+  border: 2px solid black;
+  top: 92%;
+  left: 78%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgb(221, 127, 38);
+  font-size: 20px;
+}
+.botonAtras {
+  padding: 15px 50px;
+  color: white;
+  top: 20%;
+  left: 5%;
+  position: absolute;
+  justify-content: center;
+  border-radius: 5px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(221, 127, 38);
+  font-family: "Butterfly Kids", cursive;
+}
+.video {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 20px;
+  position: relative;
+}
+.video iframe,
+.video object,
+.video embed {
+  height: 60%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 97%;
+}
+.punto {
+  list-style: none;
+}
+@media (max-width: 580px) {
+  .botonAtras {
+    top: 30%;
+    font-size: 20px;
+  }
+}
+@media (max-width: 530px) {
+  .sub {
+    font-size: 50px;
+  }
+  .semilla {
+    font-size: 50px;
+  }
+  .botonAtras {
+    top: 40%;
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,226 @@
+.astronauta {
+  width: auto;
+  height: 100%;
+  max-height: 300px;
+  padding-right: 1px;
+}
+.btt {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(221, 127, 38);
+  border: 2px solid white;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  left: 35%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+
+  font-family: "Butterfly Kids", cursive;
+}
+.btAdmin {
+  border-radius: 5px;
+  background-color: rgb(221, 127, 38);
+  border: 2px solid white;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  left: 55%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+
+  font-family: "Butterfly Kids", cursive;
+}
+
+.tit {
+  color: rgb(255, 153, 0);
+
+  text-align: center;
+  font-size: 70px;
+  font-family: "Butterfly Kids", cursive;
+}
+.texto {
+  justify-content: center;
+  display: flex;
+}
+.texto2 {
+  font-size: 3vw;
+  font-family: "Butterfly Kids", cursive;
+  color: white;
+}
+@media (max-width: 1051px) {
+  .astronauta {
+    width: auto;
+    height: 100%;
+    max-height: 200px;
+    padding-right: 1px;
+  }
+  .texto2 {
+    font-size: 3vw;
+    font-family: "Butterfly Kids", cursive;
+    color: white;
+  }
+  .btt {
+    padding: 20px;
+    left: 20%;
+    top: 550px;
+    position: absolute;
+  }
+  .btAdmin {
+    padding: 20px;
+    left: 60%;
+    top: 550px;
+    position: absolute;
+  }
+} 
+@media (max-width: 860px){
+  .btAdmin{
+    top: 590px;
+  }
+  .btt{
+    top :590px;
+  }
+}
+@media (max-width: 750px) {
+  .astronauta {
+    width: auto;
+    height: 100%;
+    max-height: 200px;
+    padding-right: 1px;
+  }
+  .texto2 {
+    font-size: 5vw;
+    font-family: "Butterfly Kids", cursive;
+    color: white;
+  }
+  .btt {
+    padding: 10px;
+    left: 20%;
+    top: 750px;
+    position: absolute;
+  }
+  .btAdmin {
+    padding: 10px;
+    left: 80%;
+    top: 750px;
+    position: absolute;
+  }
+  .tit {
+    font-size: 50px;
+  }
+}
+@media (max-width: 588px){
+  .texto2{
+    font-size: 6vw;
+  }
+}
+@media (max-width: 576px) {
+  .astronauta {
+    width: auto;
+    height: 100%;
+    max-height: 150px;
+    padding-right: 1px;
+  }
+  .texto2 {
+    font-size: 7vw;
+    font-family: "Butterfly Kids", cursive;
+    color: white;
+  }
+  .btt {
+    padding: 20px;
+    left: 20%;
+    top: 800px;
+    position: absolute;
+  }
+  .btAdmin {
+    padding: 20px;
+    font-size: 20px;
+    left: 100%;
+    top: 800px;
+    position: absolute;
+  }
+  h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 495px) {
+  .astronauta {
+    width: auto;
+    height: 100%;
+    max-height: 150px;
+    padding-right: 1px;
+  }
+  .texto2 {
+    font-size: 8vw;
+    font-family: "Butterfly Kids", cursive;
+    color: white;
+  }
+  .btt {
+    padding: 20px;
+
+    width: 200px;
+  }
+  .btAdmin {
+    padding: 20px;
+    left: 120%;
+    top: 750px;
+    position: absolute;
+  }
+}
+@media (max-width: 400px) {
+  h1 {
+    font-size: 40px;
+  }
+  .astronauta {
+    width: auto;
+    height: 100%;
+    max-height: 150px;
+    padding-right: 7px;
+  }
+  .texto2 {
+    font-size: 9vw;
+    font-family: "Butterfly Kids", cursive;
+    color: white;
+  }
+  .btt {
+    padding: 20px;
+    left: 20%;
+    top: 750px;
+    position: absolute;
+  }
+  .btAdmin {
+    padding: 20px;
+    left: 170%;
+    top: 750px;
+    position: absolute;
+  }
+}
+@media (max-width: 350px) {
+  h1 {
+    font-size: 30px;
+  }
+  .texto2 {
+    font-size: 10vw;
+    font-family: "Butterfly Kids", cursive;
+    color: white;
+  }
+  .btt {
+    padding: 10px;
+    left: 20%;
+    top: 750px;
+    position: absolute;
+  }
+  .btAdmin {
+    padding: 10px;
+    left: 190%;
+    top: 750px;
+    position: absolute;
+  }
+}

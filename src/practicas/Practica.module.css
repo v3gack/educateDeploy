@@ -1,0 +1,177 @@
+.ini {
+  width: 100%;
+  height: 100%;
+}
+.ap {
+  margin: auto;
+  width: 40%;
+  height: 400px;
+  align-items: center;
+  border-radius: 10px;
+
+  position: absolute;
+  top: 20%;
+  left: 30%;
+}
+.botonAtras {
+  position: relative;
+  width: 120px;
+  height: 40px;
+  top: 10px;
+  left: 40px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color: rgb(221, 127, 38);
+  font-size: 15px;
+  color: white;
+  font-family: "Butterfly Kids", cursive;
+  border-radius: 5px;
+}
+.tituloP {
+  position: absolute;
+  margin: auto;
+  top: 20%;
+  color: yellow;
+  padding: 0px 0px 10px 0px;
+  height: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.answersection {
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  display: flex;
+  width: 700px;
+  height: 70px;
+  /* top: 10%; */
+  color: rgb(250, 183, 0);
+  padding: 0px 0px 10px 0px;
+  top: 140%;
+  background-color: black;
+  background-image: url(../images/astronauta.jpg);
+  border-radius: 10px;
+  border: 10px solid white;
+
+  left: 5%;
+}
+
+.bt {
+  border-radius: 5px;
+  height: 30px;
+  width: 80px;
+  text-align: center;
+
+  font-size: 19px;
+  margin: 20px 20px;
+}
+.bt:hover {
+  background-color: #c9cce5;
+}
+.titulo {
+  position: relative;
+  color: white;
+  padding: 5px;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
+}
+.questionsection {
+  position: absolute;
+  top: 30%;
+  height: 110%;
+  width: 700px;
+  border-radius: 10px;
+  align-items: center;
+  background-image: url(../images/astronauta.jpg);
+  background-size: cover;
+  border: 10px solid white;
+
+  left: 5%;
+}
+.scoresection {
+  position: absolute;
+  top: 30%;
+  height: 110%;
+  width: 700px;
+  background-image: url(../images/astronauta.jpg);
+  background-size: cover;
+  border: 10px solid white;
+  border-radius: 10px;
+
+  left: 5%;
+}
+
+.questioncount {
+  position: relative;
+  bottom: 10%;
+}
+.questiontext {
+  font-size: 50px;
+  font-family: "Butterfly Kids", cursive;
+  position: relative;
+  bottom: 15%;
+  color: black;
+  padding: 10px;
+  left: 45%;
+  width: 45%;
+  top: 0%;
+  font-weight: bolder;
+  transform: scaleY(2);
+  transform: scaleX(1);
+}
+
+.respuesta {
+  width: 300px;
+  position: relative;
+  color: black;
+  left: 50%;
+  top: 15%;
+  font-size: 27px;
+  font-weight: bolder;
+  font-family: "Butterfly Kids", cursive;
+}
+@media (max-width: 1130px) {
+  .answersection {
+    left: -30%;
+  }
+  .questionsection {
+    left: -30%;
+  }
+  .bt {
+    font-size: 16px;
+  }
+  .scoresection {
+    left: -100px;
+  }
+}
+@media (max-width: 700px) {
+  .tituloP {
+    font-size: 40px;
+    left: 50%;
+  }
+  .answersection {
+    position: absolute;
+  }
+  .botonAtras {
+    font-size: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .scoresection {
+    left: 10%;
+  }
+}
+@media (max-width: 389px) {
+  .tituloP {
+    left: 80%;
+  }
+  .botonAtras {
+    font-size: 30px;
+  }
+}
+@media (max-width: 309px) {
+  .tituloP {
+    left: 110%;
+  }
+}
