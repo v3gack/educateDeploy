@@ -40,7 +40,7 @@
   "scripts": {
     "front": "react-scripts start ",
     "database": "json-server --watch db.json --port 3002",
-    "start": "start npm run front && start npm run database && start npm run try",
+    "start": "npm run front && npm run database && npm run try",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

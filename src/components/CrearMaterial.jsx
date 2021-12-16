@@ -47,7 +47,7 @@ function CreateNote(){
             description: input.description,
             link: input.link
         }
-        axios.post('http://localhost:3001/create', newNote)
+        axios.post('http://localhost:4000/create', newNote)
         }else{
             alertaError();
         }
